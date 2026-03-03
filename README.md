@@ -43,38 +43,4 @@ pip install -r requirements.txt
 BOT_TOKEN=ваш_токен_бота
 DATABASE_URL=sqlite+aiosqlite:///./bot.db
 
-project/
-│
-├─ app/
-│   ├─ routers/
-│   │   ├─ start.py                # Стартовые команды / меню
-│   │   ├─ profile.py              # Профиль пользователя
-│   │   └─ games/                  # Игры
-│   │       ├─ fifty_fifty_play.py
-│   │       ├─ dice_play.py
-│   │       └─ russian_roullete_play.py
-│   │
-│   ├─ service/
-│   │   └─ user_service.py         # Логика управления пользователем и балансом
-│   │
-│   ├─ repositories/
-│   │   └─ user_repo.py            # Работа с базой данных
-│   │
-│   ├─ keyboards/                  # Инлайн-кнопки для игр и меню
-│   │   ├─ menu_keyboard.py
-│   │   └─ games/
-│   │       ├─ fifty_fifty.py
-│   │       ├─ dice_keyboard.py
-│   │       └─ russian_roulette_keyboard.py
-│   │
-│   └─ states/                     # FSM для депозита/вывода и игр
-│       ├─ deposit_state.py
-│       └─ withdraw_state.py
-│
-├─ database/
-│   ├─ models/
-│   │   └─ users.py
-│   └─ session.py
-│
-├─ main.py                         # Точка входа
-└─ requirements.txt
+
