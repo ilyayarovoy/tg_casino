@@ -37,7 +37,6 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "ai.playground.ignore.import.keys.banner.in.settings": "true",
-    "git-widget-placeholder": "master",
     "last_opened_file_path": "Q:/projects/PythonProject",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
@@ -194,7 +193,7 @@
       <option name="presentableId" value="Default" />
       <updated>1772447330573</updated>
       <workItem from="1772447331575" duration="10877000" />
-      <workItem from="1772524121393" duration="12719000" />
+      <workItem from="1772524121393" duration="13482000" />
     </task>
     <servers />
   </component>
